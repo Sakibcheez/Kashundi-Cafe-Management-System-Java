@@ -1,6 +1,8 @@
 
 package Homepage;
 
+import Data_File.Sales_History;
+import Data_File.Total_income;
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.ActionEvent;
@@ -10,6 +12,7 @@ import java.util.HashMap;
 import Homepage.KashundiCafe;
 import Homepage.LoginPanel;
 import Homepage.EmployeeUtils;
+
 
 
 public class AdminPanel extends JPanel {
@@ -100,6 +103,32 @@ public class AdminPanel extends JPanel {
                 mainApp.showEmployeeDashboard();
             }
         });
+        
+        JButton btnsell = new JButton("Sell Info");
+        btnsell.setBounds(78, 250, 150, 23);
+        add(btnsell);
+        btnsell.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                
+            Sales_History fileReader = new Sales_History();
+        fileReader.setVisible(true);
+ 
+            }
+        });
+        
+        JButton btnincome = new JButton("Total Income");
+        btnincome.setBounds(78, 280, 150, 23);
+        add(btnincome);
+        btnincome.addActionListener(new ActionListener() {
+            @Override
+            public void actionPerformed(ActionEvent e) {
+                
+         Total_income fileReader = new Total_income();
+        fileReader.setVisible(true);
+ 
+            }
+        });
     }
 
     private void showEmployees() {
@@ -122,7 +151,7 @@ public class AdminPanel extends JPanel {
                                 "Employee removed successfully",
                                 "Success",
                                 JOptionPane.INFORMATION_MESSAGE);
-                        // Refresh the employee list dialog after removal
+                        
                         showEmployees();
                     }
                 }

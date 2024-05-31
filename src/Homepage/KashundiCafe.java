@@ -19,13 +19,15 @@ public class KashundiCafe {
     private Map<String, String> employees;
 
     public static void main(String[] args) {
-        EventQueue.invokeLater(() -> {
-            try {
-                KashundiCafe window = new KashundiCafe();
-                window.frame.setVisible(true);
-                
-            } catch (Exception e) {
-                e.printStackTrace();
+        EventQueue.invokeLater(new Runnable() {
+            @Override
+            public void run() {
+                try {
+                    KashundiCafe window = new KashundiCafe();
+                    window.frame.setVisible(true);
+                    
+                } catch (Exception e) {
+                }
             }
         });
     }
@@ -52,6 +54,7 @@ public class KashundiCafe {
 
     public void showAdminPanel() {
         AdminPanel adminPanel = new AdminPanel(this);
+        frame.setBounds(100, 100, 450, 400);
         frame.getContentPane().removeAll();
         frame.getContentPane().add(adminPanel);
         frame.revalidate();

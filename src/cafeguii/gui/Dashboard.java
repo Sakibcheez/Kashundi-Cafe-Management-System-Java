@@ -1880,8 +1880,8 @@ public class Dashboard extends JFrame {
                      jTxtTime.getText() +"\t"+ jTxtDate.getText() + "\t" 
                  + total + "\t\t" + tax + "\t\t" + (total+tax) + "\n");
         } catch (IOException e) {
-            e.printStackTrace();
             // Handle the exception as needed
+            
         }
     }
 
