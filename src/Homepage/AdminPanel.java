@@ -112,8 +112,11 @@ public class AdminPanel extends JPanel {
             public void actionPerformed(ActionEvent e) {
                 
             Sales_History fileReader = new Sales_History();
-        fileReader.setVisible(true);
+        fileReader.setVisible(true);     
  
+        SwingUtilities.getWindowAncestor(btnsell).dispose();
+       
+
             }
         });
         

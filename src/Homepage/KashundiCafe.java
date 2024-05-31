@@ -5,13 +5,19 @@ package Homepage;
 
 import javax.swing.*;
 import java.awt.*;
+import java.awt.image.BufferedImage;
+import java.io.File;
+import java.io.IOException;
 import java.util.HashMap;
 import java.util.Map;
+import javax.imageio.ImageIO;
 
 public class KashundiCafe {
     public static final String ADMIN_USERNAME = "admin";
     public static final String ADMIN_PASSWORD = "shishir125";
     public static final String EMPLOYEE_FILE = "employees.txt";
+     private ImageIcon icon;
+    private JLabel mylabel; 
     
     
 
@@ -43,11 +49,17 @@ public class KashundiCafe {
     public void initialize() {
         frame = new JFrame();
         frame.setTitle("Kashundi Cafe");
-        frame.setBounds(100, 100, 450, 300);
+        frame.setBounds(100, 100, 780, 300);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLocationRelativeTo(null);
         frame.getContentPane().setLayout(new BorderLayout());
-
+        
+        icon = new ImageIcon(this.getClass().getResource("/cafeguii/images2/kashundi1.jpg"));
+        mylabel = new JLabel(icon);
+        mylabel.setBounds(1, 1, 450, 300);
+        frame.add(mylabel);
+       
+        
         LoginPanel loginPanel = new LoginPanel(this);
         frame.getContentPane().add(loginPanel, BorderLayout.CENTER);
     }
@@ -56,6 +68,7 @@ public class KashundiCafe {
         AdminPanel adminPanel = new AdminPanel(this);
         frame.setBounds(100, 100, 450, 400);
         frame.getContentPane().removeAll();
+        frame.setLocationRelativeTo(null);
         frame.getContentPane().add(adminPanel);
         frame.revalidate();
         frame.repaint();
@@ -77,3 +90,5 @@ public class KashundiCafe {
         EmployeeUtils.saveEmployees(employees, EMPLOYEE_FILE);
     }
 }
+
+
