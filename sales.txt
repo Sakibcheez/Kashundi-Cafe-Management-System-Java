@@ -28,4 +28,4 @@ Time		Date			Item		Qty		Total
 4:08:18 PM	Friday, 31-05-2024	Lemontea	2		790.0
 4:08:22 PM	Friday, 31-05-2024	Khichuri	3		940.0
 4:08:25 PM	Friday, 31-05-2024	Water		2		980.0
-4:10:24 PM	Friday, 31-05-2024	Pizza	3		225.0
+4:10:24 PM	Friday, 31-05-2024	Pizza		3		225.0
