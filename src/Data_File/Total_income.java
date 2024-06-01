@@ -1,13 +1,10 @@
 
 package Data_File;
 
-
-
 import java.io.FileNotFoundException;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
-
 
 
 public class Total_income extends JFrame {
@@ -38,7 +35,8 @@ public class Total_income extends JFrame {
         }
     }
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         Total_income fileReader = new Total_income();
         fileReader.setVisible(true);
     }

@@ -8,10 +8,12 @@ import java.util.Scanner;
 
 class TextFileReader extends FileReader {
     @Override
-    public String readFile(String filePath) throws FileNotFoundException {
+    public String readFile(String filePath) throws FileNotFoundException 
+    {
         StringBuilder content = new StringBuilder();
         try (Scanner input = new Scanner(new File(filePath))) {
-            while (input.hasNextLine()) {
+            while (input.hasNextLine())  //hashnext check next line until found space 
+            {
                 String line = input.nextLine();
                 content.append(line).append("\n");
             }

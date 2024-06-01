@@ -1,14 +1,13 @@
 
 package Data_File;
 
-import java.io.File;
 import java.io.FileNotFoundException;
-import java.util.Scanner;
 import javax.swing.JFrame;
 import javax.swing.JScrollPane;
 import javax.swing.JTextArea;
 
-public class Sales_History extends JFrame {
+public class Sales_History extends JFrame 
+{
 
     private JTextArea textArea;
 
@@ -18,6 +17,7 @@ public class Sales_History extends JFrame {
         setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         setLocationRelativeTo(null);
 
+        //SCroll panel add
         textArea = new JTextArea();
         JScrollPane scrollPane = new JScrollPane(textArea);
         add(scrollPane);
@@ -25,7 +25,8 @@ public class Sales_History extends JFrame {
         displayFileContent();
     }
 
-    private void displayFileContent() {
+    private void displayFileContent() 
+    {
         FileReader fileReader = new TextFileReader();
         String filePath = "sales.txt";
         try {
@@ -34,9 +35,12 @@ public class Sales_History extends JFrame {
         } catch (FileNotFoundException ex) {
             System.err.println("File not found: " + ex.getMessage());
         }
+   
     }
 
-    public static void main(String[] args) {
+    //runable 
+    public static void main(String[] args) 
+    {
         Sales_History fileReader = new Sales_History();
         fileReader.setVisible(true);
     }
