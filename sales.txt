@@ -1,2 +1,17 @@
 Time		Date			Item		Qty		Total
 
+6:12:08 AM	Saturday, 01-06-2024	Hot Coffee	1		60.0
+6:12:09 AM	Saturday, 01-06-2024	Cold Coffee	1		140.0
+6:12:10 AM	Saturday, 01-06-2024	Milk Tea	1		160.0
+6:12:12 AM	Saturday, 01-06-2024	Burger		1		260.0
+6:12:14 AM	Saturday, 01-06-2024	Water		1		280.0
+6:12:16 AM	Saturday, 01-06-2024	Sandwich	1		350.0
+6:12:18 AM	Saturday, 01-06-2024	Lacchi		1		420.0
+6:12:21 AM	Saturday, 01-06-2024	Biriwani	1		550.0
+6:12:22 AM	Saturday, 01-06-2024	Pizza		1		625.0
+6:12:24 AM	Saturday, 01-06-2024	Khichuri	1		675.0
+6:12:26 AM	Saturday, 01-06-2024	Coca-Cola	1		700.0
+6:12:28 AM	Saturday, 01-06-2024	Lemontea	1		725.0
+6:12:31 AM	Saturday, 01-06-2024	Chawmin		1		795.0
+6:12:32 AM	Saturday, 01-06-2024	Chicken Fry	1		885.0
+6:12:35 AM	Saturday, 01-06-2024	Fried Rice	1		1005.0
