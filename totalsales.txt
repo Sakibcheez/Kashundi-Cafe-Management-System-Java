@@ -1,2 +1,3 @@
 Time		Date			Total		Tax		Tax+Total 
 6:13:05 AM	Saturday, 01-06-2024	1005.0		50.25		1055.25
+3:09:52 AM	Sunday, 09-06-2024	965.0		48.25		1013.25
