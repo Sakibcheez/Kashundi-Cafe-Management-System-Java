@@ -11,9 +11,7 @@ public class CoffeeShopCalculator {
         tax = 0.0;
     }
     
-    
 
-    
     public double calculateTax(double subtotal) {
         return subtotal * 0.05;
     }

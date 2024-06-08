@@ -22,3 +22,5 @@ Time		Date			Item		Qty		Total
 3:09:44 AM	Sunday, 09-06-2024	Lacchi	3		565.0
 3:09:47 AM	Sunday, 09-06-2024	Biriwani	2		825.0
 3:09:49 AM	Sunday, 09-06-2024	Sandwich	2		965.0
+3:43:52 AM	Sunday, 09-06-2024	Coca-Cola	3		75.0
+3:43:54 AM	Sunday, 09-06-2024	Sandwich	3		285.0
