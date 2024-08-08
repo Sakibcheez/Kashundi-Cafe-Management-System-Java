@@ -24,3 +24,9 @@ Time		Date			Item		Qty		Total
 3:09:49 AM	Sunday, 09-06-2024	Sandwich	2		965.0
 3:43:52 AM	Sunday, 09-06-2024	Coca-Cola	3		75.0
 3:43:54 AM	Sunday, 09-06-2024	Sandwich	3		285.0
+3:19:08 AM	Saturday, 06-07-2024	Lemontea	3		75.0
+3:19:11 AM	Saturday, 06-07-2024	Fried Rice	4		555.0
+3:19:13 AM	Saturday, 06-07-2024	Water	3		615.0
+3:19:15 AM	Saturday, 06-07-2024	Pizza	3		840.0
+3:19:17 AM	Saturday, 06-07-2024	Biriwani	3		1230.0
+3:19:19 AM	Saturday, 06-07-2024	Khichuri	3		1380.0
